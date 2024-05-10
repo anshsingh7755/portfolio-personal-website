@@ -24,7 +24,7 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "https://medium.com/@singhansh7755",
     }
   ],
 }
@@ -40,7 +40,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://docs.google.com/document/d/1IhsnG2LrhsxTbPUb1srRDozcvlaUiwWI2Q3HOA_EpwI/edit?usp=sharing",
       isPrimary: false,
     },
   ],
@@ -49,7 +49,7 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
+    "I graduated from Noida institute of engineering and technology in 2025 with a degree in Computer Engineering.",
     "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
     "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
   ],
@@ -58,11 +58,11 @@ export const about = {
 export const work = {
   title: "What I do",
   cards: [
-    {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-      icons: null,
-    },
+    // {
+    //   title: "web Development",
+    //   description: ".",
+    //   icons: null,
+    // },
     {
       title: "Web Development",
       description: "I create responsive static websites using Reactjs.",
@@ -75,13 +75,9 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: "Portfolio Website",
+      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
       icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
         {
           icon: faGithub,
           link: "https://github.com/hashirshoaeb/star_book",
